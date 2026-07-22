@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Victor Mamani" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Victor Hugo Mamani Castro">Victor H. Mamani</h1>
+
+          <p class="title">Estudiante de Informática</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar Contactos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:25victorhuman@gmail.com" class="contact-link">25victorhuman@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Celular</p>
+
+              <a href="tel:+59163165981" class="contact-link">+591 63165981</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">C.I.</p>
+
+              <time>8351609</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Ubicación</p>
+
+              <address>La Paz - El Alto, Bolivia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          
+  
+  <!-- GitHub -->
+  <li class="social-item">
+    <a href="https://github.com/vilturhu" target="_blank" class="social-link">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </li>
+
+  <!-- WhatsApp -->
+  <li class="social-item">
+    <a href="https://wa.me/59163165981" target="_blank" class="social-link">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </a>
+  </li>
+
+  <!-- Facebook -->
+  <li class="social-item">
+    <a href="https://www.facebook.com/castro.hugo.669077" target="_blank" class="social-link">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </a>
+  </li>
+
+
+
+  <!-- Instagram -->
+  <li class="social-item">
+    <a href="https://www.instagram.com/victormamanicastro?igsh=MW5qdGRxcnczcjU4Zw==" target="_blank" class="social-link">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+  </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+       <section class="about-text">
+          <p>
+            Estudiante de la carrera de Informática en la Universidad Mayor de San Andrés (UMSA), con formación 
+            complementaria en programación, robótica educativa, redes y administración básica de servidores.
+          </p>
+
+          <p>
+            Cuento con experiencia en soporte técnico, logística y apoyo operativo en actividades académicas 
+            e institucionales, así como disciplina y responsabilidad adquiridas durante el servicio militar. 
+            Me caracterizo por mi organización, adaptabilidad, trabajo en equipo y disposición para aprender 
+            y apoyar procesos de investigación y enseñanza tecnológica.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Áreas de Conocimiento</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo Web</h4>
+
+                <p class="service-item-text">
+                  Desarrollo de aplicaciones web con Laravel, HTML, CSS y JavaScript.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programación</h4>
+
+                <p class="service-item-text">
+                  Conocimientos en Python, Java, MicroPython y programación de robots.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Redes y Servidores</h4>
+
+                <p class="service-item-text">
+                  Configuración de redes, administración de servidores e infraestructuras básicas.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blockchain</h4>
+
+                <p class="service-item-text">
+                  Desarrollo de aplicaciones descentralizadas y tecnologías blockchain.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+      <section class="testimonials">
+
+  <h3 class="h3 testimonials-title">Referencias Laborales</h3>
+
+  <ul class="testimonials-list has-scrollbar">
+
+    <!-- ========================================================== -->
+    <!-- REFERENCIA 1: Ing. Vásquez Toño -->
+    <!-- ========================================================== -->
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/my-avatara.png" alt="Ing. Vásquez Toño" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Ing. Vásquez Toño</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+         <p>
+            <strong>Cargo:</strong> Encargado de Producción (ahora Calidad) - Preforsa<br>
+            <strong>Opinión:</strong> "Trabajador responsable y puntual. Cumple con sus tareas."<br>
+            <strong>Contacto:</strong> 📱 75410322
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <!-- ========================================================== -->
+    <!-- REFERENCIA 2: Lic. Gabriel Kallac -->
+    <!-- ========================================================== -->
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Lic. Gabriel Kallac" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Lic. Gabriel Kallac</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+         <p>
+            <strong>Cargo:</strong> Dueño - Empresa de Sonido M5<br>
+            <strong>Opinión:</strong> "Trabajador confiable y cumplido. Buena actitud."<br>
+            <strong>Contacto:</strong> 📱 76502858
+          </p>
+        </div>
+
+      </div>
+    </li>
+      <!-- Referencia 4 - Organización de Eventos -->
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-4.png" alt="Eventos UMSA" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Organización de Eventos - UMSA</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Participó en la organización de registro e inscripción, así como en la logística 
+            y distribución de refrigerios en eventos académicos de la UMSA (16-20 de octubre 2023). 
+            Demostró responsabilidad y capacidad organizativa.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+  <div class="overlay" data-overlay></div>
+
+  <section class="testimonials-modal">
+
+    <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-img-wrapper">
+      <figure class="modal-avatar-box">
+        <img src="./assets/images/avatar-1.png" alt="Ing. Vásquez Toño" width="80" data-modal-img>
+      </figure>
+
+      <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    </div>
+
+    <div class="modal-content">
+
+      <h4 class="h3 modal-title" data-modal-title>Ing. Vásquez Toño</h4>
+
+      <time datetime="2021-06-14">14 June, 2021</time>
+
+      <div data-modal-text>
+        <p>
+          "Victor trabajó conmigo en Preforsa en el área de producción. 
+          Era un colaborador responsable y cumplía con sus tareas. 
+          Siempre llegaba a tiempo y hacía su trabajo. 
+          Es una persona con la que se puede contar."
+        </p>
+        <p style="margin-top: 10px; color: #aaa; font-size: 0.9rem;">
+          🔹 Encargado de Producción (actualmente Calidad) - Preforsa<br>
+          📱 Celular: 75410322
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
+        <!--
+          - clients
+        
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/prefor.JPG" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqvpy3MTwZ_8Cdr0ULM5sqXQ48-aslpTGJGvHSHx68LxwfNDtzuNzM20&s=10" alt="client logo">
+              </a>
+            </li>
+
+            
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+        -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Currículum</h2>
+  </header>
+
+  <!-- EDUCACIÓN -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Formación Académica</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Universidad Mayor de San Andrés (UMSA)</h4>
+        <span>Actualmente</span>
+        <p class="timeline-text">
+          Estudiante de la carrera de Informática - Universitario activo
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Diploma de Bachiller en Humanidades</h4>
+        <span>08 de diciembre de 2017</span>
+        <p class="timeline-text">
+          Unidad Educativa Bolivia – La Paz – El Alto, Bolivia
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Curso de Reparación de Celulares</h4>
+        <span>21-sep-2020 — 02-oct-2020</span>
+        <p class="timeline-text">
+          Hardware y Software - Ingeniería y Computación de Teléfonos Celulares<br>
+          La Paz – El Alto, Bolivia
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- CERTIFICACIONES -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="medal-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Certificaciones</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Robots Autónomos – Sistemas Inteligentes</h4>
+        <span>Agosto de 2025</span>
+        <p class="timeline-text">
+          Universidad Pública de El Alto (UPEA) – Carrera de Ingeniería de Sistemas<br>
+          60 horas académicas - Modalidad Semipresencial
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Administración y Configuración de Servidores</h4>
+        <span>13, 15, 17, 20 y 22 de octubre de 2025</span>
+        <p class="timeline-text">
+          Consultoría y Capacitaciones EXABOL - 40 horas académicas<br>
+          La Paz, Bolivia - Instructores: Ing. Jintiro Wilson Al Coigne, Ing. Enrique Flores Balzador
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Introducción y Configuración de Redes</h4>
+        <span>14, 16, 17, 21 y 23 de abril de 2025</span>
+        <p class="timeline-text">
+          Consultoría y Capacitaciones Lidebol S.R.L. - 40 horas académicas<br>
+          La Paz, Bolivia - Instructor: Ing. Christian Waldo Ramón Campero
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Framework con Laravel</h4>
+        <span>24 de marzo al 19 de abril de 2024</span>
+        <p class="timeline-text">
+          Universidad Pública de El Alto – Carrera de Ingeniería de Sistemas<br>
+          60 horas académicas - Modalidad Presencial
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Bootcamp de Desarrolladores Blockchain</h4>
+        <span>2024</span>
+        <p class="timeline-text">
+          Universidad Mayor de San Andrés (UMSA) – Facultad de Ciencias Puras y Naturales<br>
+          Desarrollo de aplicaciones descentralizadas y tecnologías blockchain
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">PYDAY La Paz 2023</h4>
+        <span>10 de junio de 2023</span>
+        <p class="timeline-text">
+          Carrera de Informática – Universidad Mayor de San Andrés (UMSA)<br>
+          Participación en evento tecnológico
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- HABILIDADES TÉCNICAS -->
+  <section class="skill">
+
+    <h3 class="h3 skills-title">Habilidades Técnicas</h3>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Python</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Java</h5>
+          <data value="65">65%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 65%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Laravel / Desarrollo Web</h5>
+          <data value="60">60%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 60%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Redes y Servidores</h5>
+          <data value="65">65%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 65%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Robótica (MicroPython)</h5>
+          <data value="55">55%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 55%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Blockchain</h5>
+          <data value="50">50%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 50%;"></div>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <!-- HABILIDADES PERSONALES -->
+  <section class="skill" style="margin-top: 30px;">
+
+    <h3 class="h3 skills-title">Habilidades Personales</h3>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Trabajo en Equipo</h5>
+          <data value="90">90%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 90%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Gestión del Tiempo</h5>
+          <data value="85">85%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Resolución de Problemas</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Comunicación Técnica</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+  <article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Mis Proyectos</h2>
+  </header>
+
+  <section class="projects">
+
+    <!-- FILTROS -->
+    <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>Todos</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Programación</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Web</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Bases de Datos</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Redes</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Sistemas</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Paralelismo</button>
+      </li>
+    </ul>
+
+    <!-- SELECTOR MÓVIL -->
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Seleccionar categoría</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>Todos</button></li>
+        <li class="select-item"><button data-select-item>Programación</button></li>
+        <li class="select-item"><button data-select-item>Web</button></li>
+        <li class="select-item"><button data-select-item>Bases de Datos</button></li>
+        <li class="select-item"><button data-select-item>Redes</button></li>
+        <li class="select-item"><button data-select-item>Sistemas</button></li>
+        <li class="select-item"><button data-select-item>Paralelismo</button></li>
+      </ul>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- LISTA DE PROYECTOS -->
+    <!-- ============================================================ -->
+    <ul class="project-list">
+
+      <!-- ========================================================== -->
+      <!-- 1. PROGRAMACIÓN II - GESTIÓN DE DONACIONES -->
+      <!-- Categoría: Programación / Bases de Datos -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="programación">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-4">
+                <img src="./assets/images/img/p2-1.JPG" alt="Gestión de Donaciones 1" loading="lazy">
+                <img src="./assets/images/img/p2-2.JPG" alt="Gestión de Donaciones 2" loading="lazy">
+                <img src="./assets/images/img/p2-3.JPG" alt="Gestión de Donaciones 3" loading="lazy">
+                <img src="./assets/images/img/p2-4.JPG" alt="Gestión de Donaciones 4" loading="lazy">
+                <img src="./assets/images/img/p2-5.JPG" alt="Gestión de Donaciones 5" loading="lazy">
+                <img src="./assets/images/img/p2-6.JPG" alt="Gestión de Donaciones 6" loading="lazy">
+                <img src="./assets/images/img/p2-7.JPG" alt="Gestión de Donaciones 7" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Gestión de Donaciones - Hemocentro</h3>
+          <p class="project-category">Programación / Bases de Datos</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 2. PROGRAMACIÓN WEB II - DEFENSA ANGULAR -->
+      <!-- Categoría: Web -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="web">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-2">
+                <img src="./assets/images/img/web2-1.jpg" alt="Defensa Angular 1" loading="lazy">
+                <img src="./assets/images/img/web2-2.jpg" alt="Defensa Angular 2" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Defensa Angular - Formulario Reactivo</h3>
+          <p class="project-category">Web</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 3. ANÁLISIS Y DISEÑO DE SISTEMAS - ADU S.R.L. -->
+      <!-- Categoría: Sistemas -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="sistemas">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-3">
+                <img src="./assets/images/img/ayd-1.jpg" alt="ADU S.R.L. 1" loading="lazy">
+                <img src="./assets/images/img/ayd-2.jpg" alt="ADU S.R.L. 2" loading="lazy">
+                <img src="./assets/images/img/ayd-3.jpg" alt="ADU S.R.L. 3" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Sistema Presupuestario - ADU S.R.L.</h3>
+          <p class="project-category">Sistemas</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 4. REDES I - CAFÉ INTERNET -->
+      <!-- Categoría: Redes -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="redes">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-3">
+                <img src="./assets/images/img/r1-1.jpg" alt="Café Internet 1" loading="lazy">
+                <img src="./assets/images/img/r1-2.jpg" alt="Café Internet 2" loading="lazy">
+                <img src="./assets/images/img/r1-3.jpg" alt="Café Internet 3" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Café Internet - Red LAN</h3>
+          <p class="project-category">Redes</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 5. BASE DE DATOS II - CONSULTAS SQL -->
+      <!-- Categoría: Bases de Datos -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="bases de datos">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-2">
+                <img src="./assets/images/img/bd2-1.jpg" alt="Consultas SQL 1" loading="lazy">
+                <img src="./assets/images/img/bd2-2.jpg" alt="Consultas SQL 2" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Consultas SQL - Base de Datos II</h3>
+          <p class="project-category">Bases de Datos</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 6. SISTEMAS DE INFORMACIÓN - CUADRO DE MANDO INTEGRAL -->
+      <!-- Categoría: Sistemas -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="sistemas">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-3">
+                <img src="./assets/images/img/si-1.JPG" alt="BSC 1" loading="lazy">
+                <img src="./assets/images/img/si-2.JPG" alt="BSC 2" loading="lazy">
+                <img src="./assets/images/img/si-3.JPG" alt="BSC 3" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Cuadro de Mando Integral - TechSolutions</h3>
+          <p class="project-category">Sistemas</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 7. LEGISLACIÓN Y ÉTICA - PENSAMIENTO CRÍTICO -->
+      <!-- Categoría: Sistemas -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="sistemas">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-2">
+                <img src="./assets/images/img/lye-1.JPG" alt="Pensamiento Crítico 1" loading="lazy">
+                <img src="./assets/images/img/Iye-2.JPG" alt="Pensamiento Crítico 2" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Pensamiento Crítico - Monografía</h3>
+          <p class="project-category">Sistemas</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 8. DINÁMICA DE SISTEMAS - INFLACIÓN EN BOLIVIA -->
+      <!-- Categoría: Sistemas -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="sistemas">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-3">
+                <img src="./assets/images/img/dsi-1.JPG" alt="Inflación 1" loading="lazy">
+                <img src="./assets/images/img/dsi-2.JPG" alt="Inflación 2" loading="lazy">
+                <img src="./assets/images/img/dsi-3.JPG" alt="Inflación 3" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Comportamiento de la Inflación en Bolivia</h3>
+          <p class="project-category">Sistemas</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 9. TALLER DE TÉCNICO SUPERIOR - MARKETPLACE -->
+      <!-- Categoría: Sistemas / Web -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="sistemas">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-3">
+                <img src="./assets/images/img/tec-1.JPG" alt="MarketPlace 1" loading="lazy">
+                <img src="./assets/images/img/tec-2.JPG" alt="MarketPlace 2" loading="lazy">
+                <img src="./assets/images/img/tec-3.JPG" alt="MarketPlace 3" loading="lazy">
+                <img src="./assets/images/img/tec-4.JPG" alt="MarketPlace 4" loading="lazy">
+                <img src="./assets/images/img/tec-5.png" alt="MarketPlace 5" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">MarketPlace Paceño - E-commerce Multivendedor</h3>
+          <p class="project-category">Sistemas / Web</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 10. COMPUTACIÓN EN LA NUBE - BASES DE DATOS EN LA NUBE -->
+      <!-- Categoría: Bases de Datos -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="bases de datos">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-4">
+                <img src="./assets/images/img/cn-1.JPG" alt="Nube 1" loading="lazy">
+                <img src="./assets/images/img/cn-2.JPG" alt="Nube 2" loading="lazy">
+                <img src="./assets/images/img/cn-3.JPG" alt="Nube 3" loading="lazy">
+                <img src="./assets/images/img/cn-4.JPG" alt="Nube 4" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Bases de Datos en la Nube - Neon</h3>
+          <p class="project-category">Bases de Datos</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 11. REDES II - CERVECERÍA BOLIVIANA NACIONAL -->
+      <!-- Categoría: Redes -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="redes">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-4">
+                <img src="./assets/images/img/r2-1.JPG" alt="CBN 1" loading="lazy">
+                <img src="./assets/images/img/r2-2.JPG" alt="CBN 2" loading="lazy">
+                <img src="./assets/images/img/r2-3.JPG" alt="CBN 3" loading="lazy">
+                <img src="./assets/images/img/r2-4.JPG" alt="CBN 4" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Red LAN - CBN Cervecería</h3>
+          <p class="project-category">Redes</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 12. SISTEMAS DISTRIBUIDOS - DHT CHORD -->
+      <!-- Categoría: Redes / Programación -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="paralelismo">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-3">
+                <img src="./assets/images/img/sdi-1 dht.JPG" alt="DHT Chord 1" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">DHT Chord - Tabla Hash Distribuida</h3>
+          <p class="project-category">Redes</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 13. LBM D2Q9 - SIMULACIÓN DE FLUIDOS -->
+      <!-- Categoría: Paralelismo -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="paralelismo">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-3">
+                <img src="./assets/images/img/sdi-4 lbm.JPG" alt="LBM 1" loading="lazy">
+                <img src="./assets/images/img/sdi-5 lbm.JPG" alt="LBM 2" loading="lazy">
+                <img src="./assets/images/img/sdi-6 lbm.JPG" alt="LBM 3" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">LBM D2Q9 - Simulación de Fluidos</h3>
+          <p class="project-category">Paralelismo</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 14. FIBONACCI CON MPI -->
+      <!-- Categoría: Paralelismo -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="paralelismo">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-2">
+                <img src="./assets/images/img/sdi-2 fibo.JPG" alt="Fibonacci MPI 1" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Fibonacci con MPI - Cálculo Distribuido</h3>
+          <p class="project-category">Paralelismo</p>
+        </a>
+      </li>
+
+      <!-- ========================================================== -->
+      <!-- 15. OPENMP - CÁLCULO DE PI -->
+      <!-- Categoría: Paralelismo -->
+      <!-- ========================================================== -->
+      <li class="project-item active" data-filter-item data-category="paralelismo">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <div class="project-carousel">
+              <div class="carousel-track img-2">
+                <img src="./assets/images/img/sdi-3 pi.JPG" alt="OpenMP PI 1" loading="lazy">
+              </div>
+            </div>
+          </figure>
+          <h3 class="project-title">Cálculo de PI con OpenMP</h3>
+          <p class="project-category">Paralelismo</p>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+<!-- ============================================================ -->
+<!-- CSS PARA EL CARRUSEL -->
+<!-- ============================================================ -->
+<style>
+  .project-carousel {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+  }
+
+  .carousel-track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    animation: carouselScroll 12s ease-in-out infinite;
+  }
+
+  .carousel-track img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  /* Velocidad del carrusel - ajusta el tiempo según necesites */
+  @keyframes carouselScroll {
+    0%   { transform: translateX(0%); }
+    20%  { transform: translateX(0%); }
+    25%  { transform: translateX(-100%); }
+    45%  { transform: translateX(-100%); }
+    50%  { transform: translateX(-200%); }
+    70%  { transform: translateX(-200%); }
+    75%  { transform: translateX(-300%); }
+    95%  { transform: translateX(-300%); }
+    100% { transform: translateX(0%); }
+  }
+
+  /* Para 2 imágenes */
+  .carousel-track.img-2 {
+    animation: carouselScroll2 8s ease-in-out infinite;
+  }
+  @keyframes carouselScroll2 {
+    0%   { transform: translateX(0%); }
+    40%  { transform: translateX(0%); }
+    50%  { transform: translateX(-100%); }
+    90%  { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
+  }
+
+  /* Para 3 imágenes */
+  .carousel-track.img-3 {
+    animation: carouselScroll3 10s ease-in-out infinite;
+  }
+  @keyframes carouselScroll3 {
+    0%   { transform: translateX(0%); }
+    28%  { transform: translateX(0%); }
+    33%  { transform: translateX(-100%); }
+    61%  { transform: translateX(-100%); }
+    66%  { transform: translateX(-200%); }
+    94%  { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+  }
+
+  /* Para 4 imágenes */
+  .carousel-track.img-4 {
+    animation: carouselScroll4 14s ease-in-out infinite;
+  }
+  @keyframes carouselScroll4 {
+    0%   { transform: translateX(0%); }
+    21%  { transform: translateX(0%); }
+    25%  { transform: translateX(-100%); }
+    46%  { transform: translateX(-100%); }
+    50%  { transform: translateX(-200%); }
+    71%  { transform: translateX(-200%); }
+    75%  { transform: translateX(-300%); }
+    96%  { transform: translateX(-300%); }
+    100% { transform: translateX(0%); }
+  }
+
+  /* Hover - pausa la animación */
+  .project-carousel:hover .carousel-track {
+    animation-play-state: paused;
+  }
+
+  /* Indicadores de imágenes (puntos) */
+  .carousel-dots {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    z-index: 2;
+  }
+
+  .carousel-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+    transition: background 0.3s;
+  }
+
+  .carousel-dots span.active {
+    background: #fff;
+  }
+
+  /* Ajuste para la imagen del proyecto */
+  .project-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .project-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .carousel-track {
+      animation-duration: 8s;
+    }
+  }
+</style>
+
+      <!--
+        - #CONTACT
+      -->
+
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contacto</h2>
+  </header>
+
+
+  <!-- FORMULARIO DE CONTACTO CON FORMSUBMIT -->
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Formulario de Contacto</h3>
+
+    <form action="https://formsubmit.co/25victorhuman@gmail.com" method="POST" class="form">
+
+      <!-- Configuración de FormSubmit -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Nuevo mensaje desde mi Portfolio!">
+      <input type="hidden" name="_next" value="https://victorhuman.github.io">
+
+      <div class="input-wrapper">
+        <input type="text" name="nombre" class="form-input" placeholder="Nombre completo" required>
+
+        <input type="email" name="email" class="form-input" placeholder="Correo electrónico" required>
+      </div>
+
+      <textarea name="mensaje" class="form-input" placeholder="Tu mensaje..." required></textarea>
+
+      <button class="form-btn" type="submit">
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Enviar Mensaje</span>
+      </button>
+
+    </form>
+
+  </section>
+
+</article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
